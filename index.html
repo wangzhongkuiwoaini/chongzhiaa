@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <title></title>
+    <script>
+    	/*动态设置HTML的大小*/
+    	(function(){
+    		var html = document.documentElement;/*代表html*/
+    		var width = html.getBoundingClientRect().width;/*设置宽*/
+    		html.style.fontSize = width/18+'px';  
+    		
+    		/*irem代表60像素*/
+    	})();
+    	/* 异常手机
+* 适用于获取屏幕宽度等分设置html的font-size情况，比如 flexible.js库     
+*/
+//计算最终html font-size
+		/*function modifileRootRem () {
+		    var root = window.document.documentElement;
+		    var fontSize = parseFloat(root.style.fontSize);
+		    var finalFontSize = parseFloat(window.getComputedStyle(root).getPropertyValue("font-size"));
+		    if(finalFontSize === fontSize) return;
+		    root.style.fontSize = fontSize+(fontSize-finalFontSize) + "px";
+		}
+		if(typeof window.onload === 'function'){
+		    var oldFun = window.onload;
+		    window.onload = function(){
+		        oldFun();
+		        modifileRootRem();
+		    }
+		}else{
+		    window.onload = modifileRootRem;
+		}*/
+    </script>
+</head>
+<body>
+	<header id="header" class="clearfix">
+		<a href="#" class="left" >北京市海淀<span></span></a>
+		<input type="text" class="left" value="输入、商品店铺等"/>
+		<a href="#" class="right"><span>我的</span></a>
+	</header>
+	<div id="banner">
+		<a href="#"><img src="img/banner.jpg"/></a>
+	</div>
+	<div id="nav">
+		<ul>
+			<li><a href=""><img src="img/circle_01.png" alt="" />餐饮住宿</a></li>
+			<li><a href=""><img src="img/circle_02.png" alt="" />汽车美容</a></li>
+			<li><a href=""><img src="img/circle_03.png" alt="" />生活服务</a></li>
+			<li><a href=""><img src="img/circle_04.png" alt="" />休闲娱乐</a></li>
+			<li><a href=""><img src="img/circle_05.png" alt="" />教育培训</a></li>
+			<li><a href=""><img src="img/circle_06.png" alt="" />家具建材</a></li>
+			<li><a href=""><img src="img/circle_07.png" alt="" />酒水饮料</a></li>
+			<li><a href=""><img src="img/circle_08.png" alt="" />婚纱婚庆</a></li>
+		</ul>
+	</div>
+	<section id="ad1" class="clearfix">
+		<a href="#"><img src="img/img_01.jpg" alt="" /></a>
+		<a href="#"><img src="img/img_02.jpg" alt="" /></a>
+		<a href="#"><img src="img/img_03.jpg" alt="" /></a>
+	</section>
+	<section id="ad2">
+		<a href="#"><img src="img/img_04.jpg" alt="" /></a>
+	</section>
+	<section id="text">
+		<h3>综合推荐</h3>
+		<div class="list clearfix">
+			<a href="#"class="left"><img src="img/img_05.png" alt="" /></a>
+			<div class="left">
+				<h4><a href="3">综合推荐</a></h4>
+				<p>按实际调查爱德华岙街道奥大货车啊可接受的安监局十年多次爱仕达矮地茶</p>
+				<div>adcds<strong>0</strong>份<span class="discount">8.0折</span><span class="red">幸运红包</span></div>
+			</div>
+		</div>
+		<div class="list clearfix">
+			<a href="#"class="left"><img src="img/img_05.png" alt="" /></a>
+			<div class="left">
+				<h4><a href="3">综合推荐</a></h4>
+				<p>按实际调查爱德华岙街道奥大货车啊可接受的安监局十年多次爱仕达矮地茶</p>
+				<div>adcds<strong>0</strong>份<span class="discount">8.0折</span><span class="red">幸运红包</span></div>
+			</div>
+		</div>
+		<div class="list clearfix">
+			<a href="#"class="left"><img src="img/img_05.png" alt="" /></a>
+			<div class="left">
+				<h4><a href="3">综合推荐</a></h4>
+				<p>按实际调查爱德华岙街道奥大货车啊可接受的安监局十年多次爱仕达矮地茶</p>
+				<div>adcds<strong>0</strong>份<span class="discount">8.0折</span><span class="red">幸运红包</span></div>
+			</div>
+		</div>
+		<div class="list clearfix">
+			<a href="#"class="left"><img src="img/img_05.png" alt="" /></a>
+			<div class="left">
+				<h4><a href="3">综合推荐</a></h4>
+				<p>按实际调查爱德华岙街道奥大货车啊可接受的安监局十年多次爱仕达矮地茶</p>
+				<div>adcds<strong>0</strong>份<span class="discount">8.0折</span><span class="red">幸运红包</span></div>
+			</div>
+		</div>
+		<div class="list clearfix">
+			<a href="#"class="left"><img src="img/img_05.png" alt="" /></a>
+			<div class="left">
+				<h4><a href="3">综合推荐</a></h4>
+				<p>按实际调查爱德华岙街道奥大货车啊可接受的安监局十年多次爱仕达矮地茶</p>
+				<div>adcds<strong>0</strong>份<span class="discount">8.0折</span><span class="red">幸运红包</span></div>
+			</div>
+		</div>
+		<div class="list clearfix">
+			<a href="#"class="left"><img src="img/img_05.png" alt="" /></a>
+			<div class="left">
+				<h4><a href="3">综合推荐</a></h4>
+				<p>按实际调查爱德华岙街道奥大货车啊可接受的安监局十年多次爱仕达矮地茶</p>
+				<div>adcds<strong>0</strong>份<span class="discount">8.0折</span><span class="red">幸运红包</span></div>
+			</div>
+	</section>
+</body>
+</html>
